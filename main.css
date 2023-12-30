@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.box {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#formContato {
+    margin-bottom: 20px;
+}
+
+.contatos {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
